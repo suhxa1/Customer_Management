@@ -1,0 +1,85 @@
+/* CustomerForm.css */
+
+.form-container {
+  background:rgb(238, 249, 241) !important;
+  padding: 30px 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container h2 {
+  text-align: center;
+  color:rgb(62, 164, 131);
+  margin-bottom: 25px;
+}
+
+.form-container label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color:rgb(113, 60, 178);
+  box-shadow: 0 0 4px rgba(53, 143, 94, 0.2) !important;
+}
+
+.form-container div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-container button {
+  background:rgb(98, 134, 117) !important;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  background:rgb(31, 108, 72) !important;
+}
+
+.form-container button[type="button"] {
+  background-color: #eee;
+  color: #333;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.form-container button[type="button"]:hover {
+  background-color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .form-container div {
+    flex-direction: column;
+  }
+}
