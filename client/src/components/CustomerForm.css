@@ -74,6 +74,14 @@
   background-color: #ddd;
 }
 
+.error {
+  color: red;
+  font-size: 0.85em;
+  margin-top: 2px;
+  display: block;
+}
+
+
 @media (max-width: 600px) {
   .form-container {
     padding: 20px;
